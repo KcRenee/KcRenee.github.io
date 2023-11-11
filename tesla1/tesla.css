@@ -1,0 +1,76 @@
+html {
+    font-size: 16px;
+}
+
+header{
+    background-color: rgba(1, 1, 31, 0.942);
+    color: antiquewhite;
+}
+
+.both{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.tesla {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul a{
+    display: inline;
+    justify-self: end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.site {
+    display: flex;
+    background-image: url('./building.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-extra {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+
+.site-section {
+    display: block;
+    text-align: center;
+}
+
+.site-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.each img{
+    width: 15rem;
+    height: 11rem;
+}
+
+.map {
+    background-image: url('./map.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    color: white;
+}
