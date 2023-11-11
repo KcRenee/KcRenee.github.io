@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,500&family=Proza+Libre:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>My personal portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Portfolio</span>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#int" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#list" class="nav-link">My projects</a></li>
+            <li class="nav-item"><a href="#logo" class="nav-link">My skills</a></li>
+            <li class="nav-item"><a href="#cont" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./images/mypic.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I am an aspiring Frontend Developer and UX/UI Designer</h1>
+              <p class="lead"> Hi, I am Kelechi Renee and I am currently taking developer courses. <br> To take part in the making of a video game has been one of my life goals for a while and I can say that I am on the right path. It would be a dream come through to finally achieve that and see my work being used by other people for fun. <br> I love crocheting, reading novels and facts about space.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="intro">
+        <section id="list">
+          <h2 class="project">My projects</h2>
+          <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Dasmoto Art</h6>
+                    <p class="mb-0 opacity-75">This is a website that sells art supplies</p>
+                  </div>
+                </div>
+                <a href="Dasmoto1/dasmotoart.html" target="_blank"><button type="button" class="btn btn-outline-success">Click To See</button></a>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Tesla Extra</h6>
+                    <p class="mb-0 opacity-75">This is a simple website for a car company</p>
+                  </div>
+                </div>
+                <a href="tesla1/tesla.html" target="_blank"><button type="button" class="btn btn-outline-success">Click To See</button></a>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Dice Challenge</h6>
+                    <p class="mb-0 opacity-75">This is a small webpage for a 2 Player dice roll game</p>
+                  </div>
+                </div>
+                <a href="Dice Challenge/dicee.html" target="_blank"><button type="button" class="btn btn-outline-success">Click To See</button></a>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="extra" style="width: 80%; margin-left: 20%;">
+        <section id="logo">
+          <h2 id="cont">My Skills</h2>
+          <div class="images logo">
+            <img src="/images/css.svg" alt="css logo" class="ms-photo">
+            <img src="/images/html.svg" alt="html logo" class="skill-photo">
+            <img src="/images/js.svg" alt="javascript logo" class="ms-photo">
+            <img src="/images/word.svg" alt="ms word logo" class="ms-photo">
+            <img src="/images/ppt.svg" alt="ms powerpoint logo" class="skill-photo">
+            <img src="/images/excel.svg" alt="ms excel logo"class="skill-photo">
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary">Made with love in Europe</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/github.png" alt="github logo" class="skill-photo"></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/kelechi-asagwara-93b456198" target="_blank"><img src="./images/linkedin.jpg" alt="linkedin logo" class="ms-photo"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/fb.png" alt="facebook logo" class="ms-photo"></a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

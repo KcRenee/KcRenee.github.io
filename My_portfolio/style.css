@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    color: black;
+    display: inline;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 900px;
+    }
+
+  div {
+    display: block;
+  }
+
+  section {
+    display: block;
+    padding: 16px;
+  }
+  
+  nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  main {
+    text-align: left;
+    position: relative;
+    display: block;
+    color: black;
+  }
+  
+  h2 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .about-me {
+    display: flex;
+  }
+
+  .photo {
+    float: right;
+    width: 300px;
+    flex-shrink: 0;
+  }
+
+  .project{
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me-text {
+    margin-right: 16px;
+    text-align: justify;
+  }
+
+  .images {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .nav-list {
+    margin: 8px;
+  }
+
+  .images {
+    max-width: 70%;
+    max-height: 50px;
+  }
+
+  .skill-photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ms-photo {
+    width: 70px;
+    height: 50px;
+  }
+  
+  #cont{
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+
+  .cont-image {
+    width: 40%;
+  }
+
+  @media (min-width: 320px) and (max-width: 450px) {
+    nav {
+      display: grid;
+    }
+    .nav-items {
+      margin-left: 0;
+    }
+    .about-me {
+      width: auto;
+      display: grid;
+    }
+    .images {
+      max-width: fit-content;
+      max-height: 50px;
+    }
+    .skill-photo {
+      width: 40px;
+      height: 30px;
+    }
+    .ms-photo {
+      width: 40px;
+      height: 30px;
+    }
+    .cont-image {
+      max-width: 40%;
+      max-height: 40px;
+      display: flex;
+    }
+    #cont{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
